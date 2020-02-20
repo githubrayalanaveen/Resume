@@ -1,6 +1,6 @@
         body {
-           background-color: #EAF6F6; 
-            
+           background-color: #EAF6F6;
+
                 }
            hr {
                border-style:none;
@@ -11,19 +11,29 @@
                */
                width: 5%;
            }
-           img {
+        /*   img {
                height: 200px;
                border-radius: 504;
                width: 200px;
                background-size: cover;
+           }  */
+/* The above is image. The below is class. Include class in Img statement and apply style using dot (.) and name. Class Selector */
+           .NaveenCircle {
+             height: 200px;
+             border-radius: 504;
+             width: 200px;
+             background-size: cover;
            }
 
 h1 {
     color: #66BFBF;
 }
 
+/* ID Selector. */
+#heading {
+  color: Red;
+}
+
 h3 {
     color: #66BFBF;
 }
-
- 
